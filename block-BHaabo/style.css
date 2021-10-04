@@ -1,0 +1,173 @@
+/* http://meyerweb.com/eric/tools/css/reset/ */
+/* v1.0 | 20080212 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Custom styles*/
+
+
+/*Body*/
+body{
+    line-height:1.5;
+    font-family: 'Open Sans', sans-serif;
+
+}
+/* Container */
+.container{
+    max-width:1400px;
+    margin:0 auto;
+    display:flex;
+    justify-content: space-between;
+}
+
+/* Header */
+.header{
+    height: 70px;
+    line-height: 70px;
+    font-size: 20px;
+    background-color: rgb(52, 52, 109);
+}
+.brand{
+    height: 70px;
+}
+.nav-icon{
+    vertical-align: middle;
+    padding-left: 10px;
+}
+
+.nav a{
+    padding-left: 40px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: white;
+    
+}
+.main{
+    margin:40px 0;
+}
+/* Aside */
+.aside{
+    width:30%;
+    background-color:lightblue;
+    border-radius: 20px;
+    padding:20px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+
+.aside-nav{
+    display: block;
+    text-decoration: none;
+    color:black;
+    font-size: 24px;
+    padding:20px;
+    
+}
+.aside-icon{
+    margin-right: 20px;
+}
+.article-nav{
+    color:orangered;
+    border: 2px solid orangered;
+    border-radius: 5px;
+}
+.bottom{
+    background-color:whitesmoke;
+    border-radius:5px;
+
+}
+
+/*Hero  Section*/
+.hero{
+    width: 70%;
+    background-color:rgb(213, 230, 236);
+    border-radius: 20px;
+    padding:20px;
+}
+.hero-image{
+    width:100%;
+}
+.hero h2{
+    font-size: 40px;
+    padding:10px 0;
+}
+.hero p{
+    font-size: 20px;
+}
+
+button{
+    background-color: yellowgreen;
+    border-radius: 5px;
+    border: 0 solid yellowgreen;
+    padding:10px 20px;
+    color: whitesmoke;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/*Navigation*/
+.footer{
+    height: 70px;
+    line-height: 70px;
+    font-size: 20px;
+    background-color: rgb(52, 52, 109);
+    color: lightgray;
+}
+.nav-footer a{
+    color: lightgray;
+    font-size: 30px;
+    margin-left: 20px;
+}
